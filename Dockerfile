@@ -18,6 +18,5 @@ ENV S2I_SCRIPTS_PATH=/usr/libexec/s2i \
     DISABLE_COLLECTSTATIC=1 \
     DISABLE_MIGRATE=1
 
-
-
+CMD [ "/tmp/scripts/assemble" ]
 CMD [ "/tmp/scripts/run" ]
